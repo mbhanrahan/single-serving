@@ -1,0 +1,144 @@
+/*.no-gutters {
+  margin-right: 6em;
+  margin-left: 6em;
+}*/
+
+@font-face {
+    font-family: 'Yeseva One', regular;
+    src: url(http://www.fonts.googleapis.com/css?family=Yeseva+One);
+    font-weight:400;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Roboto);
+    font-weight:400;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  }
+  
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  margin-bottom: 2em;
+}
+
+header {
+  margin-top: 4em;
+  margin-left: 12em;
+  margin-right: 12em;
+}
+
+figcaption {
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  padding: .8em;
+  text-align: center;
+  font-family: 'Yeseva One', regular;
+  text-transform: uppercase;
+  border-top: double thin #f90;
+  border-bottom: double thin #f90;
+  border-width: .12em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+h4 {
+  padding-bottom: .2em;
+  padding-top: .5em;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  border-bottom: double #f90;
+  color: #000;
+}
+
+h5 {
+  padding-bottom: .2em;
+  padding-top: .5em;
+  border-bottom: solid thin #f90;
+  color: #000;
+}
+
+
+.header-text {
+  font-family: 'Yeseva One', regular;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  padding-bottom: .2em;
+  border-bottom: double #f90;
+  border-width: .2em;
+}
+
+.nav-item {
+  list-style: none;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: double #f90;
+  border-width: .2em;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #f90;
+}
+
+#display-image {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+#images {
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+
+.basics-text {
+  padding: .5em 2em;
+}
+
+#composition li {
+  color: #000;
+  list-style: circle;
+  line-height: 1.8;
+}
+
+.nav-footer-item {
+  margin-left: 20em;
+  margin-right: 20em;
+  list-style: none;
+  padding-top: .2em;
+  padding-bottom: 1em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: double #f90;
+  border-width: .2em;
+}
+
+.nav-footer-link {
+  color: #000;
+}
+
+.nav-footer-link:hover {
+  color: #f90;
+}
